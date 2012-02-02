@@ -62,10 +62,20 @@
   <ItemGroup>
     <Reference Include="Extensibility, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.SqlStudio">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\Microsoft.SqlServer.Management.Sdk.SqlStudio.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.SqlStudio.Explorer">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\Microsoft.SqlServer.Management.SqlStudio.Explorer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.SqlServer.RegSvrEnum, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.SqlServer.SqlTools.VSIntegration, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\Microsoft.SqlServer.SqlTools.VSIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.OLE.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Common Files\microsoft shared\VSTT\10.0\Microsoft.VisualStudio.OLE.Interop.dll</HintPath>
     </Reference>
     <Reference Include="ObjectExplorer">
       <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\ObjectExplorer.dll</HintPath>
